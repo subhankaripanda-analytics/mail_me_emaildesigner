@@ -1,0 +1,209 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif; /* Font style */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #121212; /* Dark background for the entire page */
+  color: #e0e0e0; /* Light grey text color */
+}
+
+/* Navbar styles */
+.nav {
+  background-color: #1f1f1f; /* Dark background for the navbar */
+  color: #bb86fc; /* Purple text color */
+  padding: 10px; /* Padding inside the navbar */
+  text-align: center; /* Center align the text */
+}
+
+.company-name {
+  font-size: 24px; /* Larger font size for the company name */
+  font-weight: bold; /* Bold font weight */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Horizontally center the items */
+}
+
+.company-name svg {
+  margin-left: 8px; /* Space between the text and the icon */
+}
+/* App.css */
+.single-button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.single-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Content area styles */
+.content {
+  padding: 20px; /* Padding around the content */
+}
+
+/* Upper section grid layout */
+.upper {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Space between the columns */
+  margin-bottom: 20px; /* Space below the grid */
+}
+
+/* Lower section margin */
+.lower {
+  margin-top: 20px; /* Space above the lower section */
+}
+
+/* General section styles */
+.section {
+  padding: 20px; /* Padding inside each section */
+  border: 1px solid #333; /* Dark grey border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #252525; /* Dark background for each section */
+}
+
+.section-title {
+  font-size: 18px; /* Font size for the section titles */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 10px; /* Space below the title */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the items */
+  color: #03dac6; /* Teal color for section titles */
+}
+
+.section-title svg {
+  margin-left: 8px; /* Space between the text and the icon */
+}
+
+/* Input textarea styles */
+.input-textarea {
+  width: 100%; /* Full width */
+  height: 100px; /* Fixed height */
+  padding: 10px; /* Padding inside the textarea */
+  margin-bottom: 10px; /* Space below the textarea */
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Custom inputs container styles */
+.custom-inputs input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 10px; /* Space below each input */
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Preview box styles */
+.preview-box {
+  padding: 10px; /* Padding inside the preview box */
+  background-color: #1c1c1c; /* Dark background */
+  border: 1px solid #555; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.preview-text {
+  margin-top: 10px; /* Space above the preview text */
+}
+
+.preview-text span {
+  display: block; /* Each line is a block element */
+}
+
+/* Chat inputs container styles */
+.chat-inputs {
+  display: flex; /* Use flexbox for alignment */
+  gap: 10px; /* Space between the input and button */
+}
+
+.chat-inputs input {
+  flex-grow: 1; /* Input takes up remaining space */
+  padding: 10px; /* Padding inside the input */
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.chat-button {
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: #bb86fc; /* Purple button background */
+  color: #121212; /* Dark text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.chat-button:hover {
+  background-color: #9c4dcc; /* Darker purple on hover */
+}
+
+/* Chat history textarea styles */
+.chat-history {
+  width: 100%; /* Full width */
+  height: 200px; /* Fixed height */
+  padding: 10px; /* Padding inside the textarea */
+  margin-top: 10px; /* Space above the textarea */
+  background-color: #1c1c1c; /* Dark background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #555; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Send button styles */
+.send-button {
+  margin-top: 10px; /* Space above the button */
+  padding: 10px 20px; /* Padding inside the button */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Horizontally center the items */
+  gap: 8px; /* Space between the text and the icon */
+  background-color: #03dac6; /* Teal background color */
+  color: #121212; /* Dark text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.send-button:hover {
+  background-color: #018786; /* Darker teal on hover */
+}
+
+/* Increased padding for the "data" input fields */
+.data-section input {
+  padding: 10px;
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 3px; /* Increased padding inside the data input fields */
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Increased padding for the "input" custom footer field */
+.input-section input[name="customFooter"],
+.input-section input[name="customHeader"],
+.email-section input[name="to"],
+.email-section input[name="cc"],
+.data-section input[name="name"],
+.data-section input[name="id"],
+.data-section input[name="category"] {
+  padding: 20px;
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 3px; /* Increased padding inside the custom footer input field */
+  background-color: #333; /* Dark input background */
+  color: #e0e0e0; /* Light grey text color */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px; /* Rounded corners */
+}
